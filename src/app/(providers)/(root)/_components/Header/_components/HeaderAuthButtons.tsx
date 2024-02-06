@@ -6,7 +6,7 @@ function HeaderAuthButtons() {
       <Link
         href="/sign-up"
         prefetch
-        className="p-2 rounded-md hover:bg-pink-600"
+        className="p-2 rounded-md hover:bg-pink-700"
       >
         회원가입하기
       </Link>

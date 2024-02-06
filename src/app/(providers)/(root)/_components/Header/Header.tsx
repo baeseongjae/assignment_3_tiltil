@@ -8,16 +8,31 @@ function Header() {
         TIL::TIL
       </Link>
 
-      <nav>
-        <ul className="flex">
+      <nav className="w-1/3">
+        <ul className="flex items-center justify-around gap-x-5 w-full p-2">
           <li>
-            <Link href="/til/trending">트렌딩</Link>
+            <Link
+              href="/til/trending"
+              className="rounded-md hover:bg-pink-700 block py-2 px-4"
+            >
+              트렌딩
+            </Link>
           </li>
           <li>
-            <Link href="/til/latest">최신</Link>
+            <Link
+              href="/til/latest"
+              className="rounded-md hover:bg-pink-700 block py-2 px-4"
+            >
+              최신
+            </Link>
           </li>
           <li>
-            <Link href="/til/write">TIL 쓰러가기</Link>
+            <Link
+              href="/til/write"
+              className="rounded-md hover:bg-pink-700 block p-2"
+            >
+              TIL 쓰러가기
+            </Link>
           </li>
         </ul>
       </nav>
