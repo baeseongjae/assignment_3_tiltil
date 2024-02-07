@@ -34,6 +34,14 @@ function Header() {
               TIL 쓰러가기
             </Link>
           </li>
+          <li>
+            <Link
+              href="/my-page"
+              className="rounded-md hover:bg-pink-700 block p-2"
+            >
+              마이페이지
+            </Link>
+          </li>
         </ul>
       </nav>
 
